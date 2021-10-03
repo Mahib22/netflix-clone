@@ -15,8 +15,8 @@ function Movie(props){
     }, [props.url])
 
     return(
-        <div className="pt-4 pl-4">
-            <h2 className="pl-1 pb-2 text-xl font-bold">{props.title}</h2>
+        <div className="pt-4">
+            <h2 className="pl-6 pb-2 text-xl font-bold text-white">{props.title}</h2>
             <div className="row-poster">
                 { 
                     movies.map(movie => {
