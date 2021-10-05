@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import API_ENDPOINT from '../globals/api-endpoint'
 import CONFIG from '../globals/config'
-import '../../styles/Movie.css'
+import './Movie.css'
 
 function Movie(props){
     const [movies, setMovie] = useState([])
